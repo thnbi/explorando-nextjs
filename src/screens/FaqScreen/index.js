@@ -3,7 +3,7 @@ import Link from "../../components/Link";
 import { theme } from "../../theme/theme";
 import { Box, Text } from "../../theme/components";
 
-export default function FAQScreen({ faq }) {
+export default function FaqScreen({ faq }) {
 	return (
 		<Box
 			styleSheet={{
@@ -191,6 +191,6 @@ export default function FAQScreen({ faq }) {
 	);
 }
 
-FAQScreen.defaultProps = {
+FaqScreen.defaultProps = {
 	faqs: [],
 };
